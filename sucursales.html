@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+    <link rel="stylesheet" href="estilos.css">
+<head>
+    <style>
+         img {
+            max-width: 900px;
+            max-height: 900px;
+        }
+
+        body {
+            background-image: url('fondo.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center top 50px;
+            background-color: black;
+        }
+
+    </style>
+    <h2 style="color: white;">NUESTRAS SUCURSALES</h2>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista Desplegable de Imágenes</title>
+</head>
+<header id="main-header">
+    <a id="logo-header" href="#">
+        <span class="site-desc">PIA</span>
+        <span class="site-desc">Tienda de celulares</span>
+    </a>
+    <nav>
+        <ul>
+            <li><a href="Index.html">Quienes somos?</a></li>
+            <li><a href="historia.html">Historia</a></li>
+            <li><a href="CPYP.html">Catalogo de precios y Productos</a></li>
+            <li><a href="Promo.html">Promociones</a></li>
+            <li><a href="formulario.html">Contactanos</a></li>
+            <li><a href="sucursales.html">Sucursales</a></li>
+        </ul>
+    </nav>
+</header>
+<text align="center"></text>
+
+<body>
+
+    <label for="imageSelector" style="color: white;">Selecciona una sucursal:</label>
+    <select id="imageSelector" onchange="changeImage()">
+        <option value="images.jpg">San nicolas</option>
+        <option value="Sucursal2.jpg">Apodaca</option>
+        <option value="sucursal3.jpg">San pedro Garza Garcia</option>
+        <!-- Agrega más opciones según sea necesario -->
+    </select>
+
+    <div id="imageContainer">
+        <img id="selectedImage" src="images.jpg" alt="Imagen seleccionada">
+    </div>
+
+    <script src="sucursales.js"></script>
+</body>
+</html>

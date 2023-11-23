@@ -1,0 +1,101 @@
+body {
+    font-family: 'arial black', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+button, input, textarea {
+    outline: none;
+}
+
+input:focus,
+textarea:focus {
+    border: 2px solid #3498db;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+
+        form {
+            max-width: 600px;
+            width: 100%; 
+            margin: 20px;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-sizing: border-box;
+        }
+
+        label, input, textarea {
+            display: block;
+            margin-bottom: 15px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #3498db;
+            color: #ffffff;
+            padding: 15px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+
+        button:hover {
+            background-color: #2980b9;
+        }
